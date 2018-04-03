@@ -109,6 +109,11 @@ button {
 
 .__radio{margin-top: 0px !important}
 
+.__ol {
+    color: #fff;
+    margin-top: 2em;
+  }
+
 /*select { width: 400px; }*/
 /*end*/
 
