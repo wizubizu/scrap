@@ -105,7 +105,8 @@
 							
 							<div class="form-group">
 								<label for="" class="">Phone number</label>
-								<input type="number" class="form-control f1" name="" id="" placeholder="+234">
+								<input type="text" class="form-control f1" name="quantity" id="quantity" placeholder="+234" /><span id="errmsg"></span>
+								<!-- <input type="number" class="form-control f1" name="" id="" placeholder="+234"> -->
 							</div>
 							<div class="form-group">
 								<label for="" class="">Email address</label>
@@ -128,11 +129,12 @@
 							<div class="row">
 								<div class="col-md-6"></div>
 								<div class="col-md-6">
-									<button type="button" class="btn-custom2 wow fadeInUp waves-effect waves-classic" data-wow-delay=".8s" style="visibility: visible; animation-delay: 0.8s;  animation-name: fadeInUp;"  onclick="showNextForm()">NEXT
+									<button type="button" class="btn-custom2 wow fadeInUp waves-effect waves-classic" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s;  animation-name: fadeInUp;"  onclick="showNextForm()">NEXT
 					        		</button>
 								</div>
 							</div>
-						</div>	
+						</div>
+						<br>	
 							
 						
 
@@ -192,12 +194,12 @@
 
 							<div class="row">
 								<div class="col-md-6 col-sm-6 col-xs-6">
-									<button type="button" class="btn-custom3 wow fadeInUp waves-effect waves-classic" data-wow-delay=".8s" style="visibility: visible; animation-delay: 0.8s;  animation-name: fadeInUp;"  onclick="showPrevForm()">PREV
+									<button type="button" class="btn-custom3 wow fadeInUp waves-effect waves-classic" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s;  animation-name: fadeInUp;"  onclick="showPrevForm()">PREV
 						        	</button>
 									
 								</div>
 								<div class="col-md-6 col-sm-6 col-xs-6">
-									<button type="button" id="continuebtn" class="btn-custom2 arrow-btn2 f1 f-16 wow fadeInUp waves-effect waves-classic" data-wow-delay=".8s" style="visibility: visible; animation-delay: 0.8s;  animation-name: fadeInUp;"  onclick="showNextForm1()">NEXT
+									<button type="button" id="continuebtn" class="btn-custom2 arrow-btn2 f1 f-16 wow fadeInUp waves-effect waves-classic" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s;  animation-name: fadeInUp;"  onclick="showNextForm1()">NEXT
 							        </button>
 								</div>
 							</div>
@@ -207,13 +209,18 @@
 						<!-- 3 individual -->
 						<div class="" id="Third-Div" style="display: none;">
 							<div class="form-group">
+								<label for="" class="">How many dozen of Plastic Bottle do you want to sell?</label>
+								<input type="text" class="form-control" name="" id="" placeholder="e.g 5 dozen of plastic bottle">
+							</div>
+
+							<div class="form-group">
 								<select id="multiple" class="__selector" name="select2" multiple>
 								    <option value=""selected>Search for scrap you want to sell</option>
-								    <option value="1" data-subtitle="The first option" data-left="images/Plastic-Bottles.jpg" data-right="1" data-input="">Plastic</option>
-								    <option value="2" data-subtitle="The second option" data-left="images/Copper.jpg" data-right="2">Coppers</option>
-								    <option value="3" data-subtitle="The third option" data-left="images/Plastic-Bottles.jpg" data-right="3">Three</option>
-								    <option value="4" data-left="Plastic-Bottles.jpg" data-right="4">Four</option>
-								    <option value="5" data-left="images/noimage.png" data-right="5">Five</option>
+								    <option value="1" data-subtitle="The first option" data-left="images/PlasticBottles.jpg"  data-input="">Plastic</option>
+								    <option value="2" data-subtitle="The second option" data-left="images/Copper.jpg" >Coppers</option>
+								    <option value="3" data-subtitle="The third option" data-left="images/PlasticBottles.jpg">Three</option>
+								    <option value="4" data-left="images/PlasticBottles.jpg" >Four</option>
+								    <option value="5" data-left="images/noimage.png">Five</option>
 								    <option value="6">Six</option>
 								    <option value="7">Seven</option>
 								    <option value="8">Eight</option>
@@ -246,7 +253,7 @@
 								<div class="checkbox">
 									<label>
 										<input type="checkbox" value="" id="check_Box1">
-										<a data-toggle="tooltip" data-placement="top" title="" data-original-title="👤NOTE 10% will be change from every transaction." class="red-tooltip" >Convenience fee applied</a>
+										<a data-toggle="tooltip" data-placement="top" title="" data-original-title="👤NOTE 10% will be charge from every transaction." class="red-tooltip" >Convenience fee applied</a>
 									</label>
 									
 								</div>
@@ -254,11 +261,11 @@
 
 							<div class="row">
 								<div class="col-md-6 col-sm-6 col-xs-6">
-									<button type="button" class="btn-custom3 wow fadeInUp waves-effect waves-classic" data-wow-delay=".8s" style="visibility: visible; animation-delay: 0.8s;  animation-name: fadeInUp;"  onclick="showPrevForm1()">PREV
+									<button type="button" class="btn-custom3 wow fadeInUp waves-effect waves-classic" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s;  animation-name: fadeInUp;"  onclick="showPrevForm1()">PREV
 						        	</button>
 								</div>
 								<div class="col-md-6 col-sm-6 col-xs-6">
-									<button type="submit" class="sub_btn btn-customs arrow-btns btn-custom2 arrow-btn2 wow fadeInUp waves-effect waves-classic" data-wow-delay=".8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInUp; ">SUBMIT
+									<button type="submit" class="sub_btn btn-customs arrow-btns btn-custom2 arrow-btn2 wow fadeInUp waves-effect waves-classic" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp; ">SUBMIT
 							        </button>
 								</div>
 							</div>
@@ -276,7 +283,7 @@
 	<div class="footer">
 		<!-- container -->
 		<div class="container">
-			<div class="col-md-6 col-sm-6 footer-left  wow fadeInLeft animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+			<div class="col-md-6 col-sm-6 footer-left  wow fadeInLeft animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.2s;">
 				<ul>
 					<li><a href="faq.html">FAQs</a></li>
 					<li><a href="about.html">About</a></li>
@@ -289,7 +296,7 @@
 					<input type="submit" value="Subscribe">
 				</form>
 			</div>
-			<div class="col-md-3 col-sm-3 footer-middle wow bounceIn animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+			<div class="col-md-3 col-sm-3 footer-middle wow bounceIn animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.2s;">
 				<h3>Address</h3>
 				<div class="address">
 					<p>756 gt globel Place,
@@ -300,7 +307,7 @@
 					<p>+1(100)2345-6789</p>
 				</div>
 			</div>
-			<div class="col-md-3 col-sm-3 footer-right  wow fadeInRight animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+			<div class="col-md-3 col-sm-3 footer-right  wow fadeInRight animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.2s;">
 				<a href="#"><img src="images/logo.png" alt="" /></a>
 				<p>Proin eget ipsum ultrices, aliquet velit eget, tempus tortor. Phasellus non velit sit amet diam faucibus molestie tincidunt efficitur nisi.</p>
 			</div>
@@ -312,10 +319,10 @@
 	<div class="copyright">
 		<!-- container -->
 		<div class="container">
-			<div class="copyright-left wow fadeInLeft animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+			<div class="copyright-left wow fadeInLeft animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.2s;">
 				<p>© 2015 Truck. Design by <a href="http://w3layouts.com/">W3layouts</a></p>
 			</div>
-			<div class="copyright-right wow fadeInRight animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+			<div class="copyright-right wow fadeInRight animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.2s;">
 				<ul>
 					<li><a href="#" class="twitter"> </a></li>
 					<li><a href="#" class="twitter facebook"> </a></li>
@@ -327,20 +334,20 @@
 			</div>
 			<div class="clearfix"> </div>
 			<script type="text/javascript">
-									$(document).ready(function() {
-										/*
-										var defaults = {
-								  			containerID: 'toTop', // fading element id
-											containerHoverID: 'toTopHover', // fading element hover id
-											scrollSpeed: 1200,
-											easingType: 'linear' 
-								 		};
-										*/
-										
-										$().UItoTop({ easingType: 'easeOutQuart' });
-										
-									});
-								</script>
+				$(document).ready(function() {
+					/*
+					var defaults = {
+			  			containerID: 'toTop', // fading element id
+						containerHoverID: 'toTopHover', // fading element hover id
+						scrollSpeed: 1200,
+						easingType: 'linear' 
+			 		};
+					*/
+					
+					$().UItoTop({ easingType: 'easeOutQuart' });
+					
+				});
+			</script>
 		<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 
 		</div>
@@ -348,6 +355,21 @@
 	</div>
 
 	<script type="text/javascript">
+
+
+		// only number alone
+
+    	$(document).ready(function () {
+		  //called when key is pressed in textbox
+		  $("#quantity").keypress(function (e) {
+		     //if the letter is not digit then display error and don't type anything
+		     if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
+		        //display error message
+		        $("#errmsg").html("Numbers Only Please").show().fadeOut("slow");
+		               return false;
+		    }
+		   });
+		});
 		/*
 	Dropdown with Multiple checkbox select with jQuery - May 27, 2013
 	(c) 2013 @ElmahdiMahmoud
