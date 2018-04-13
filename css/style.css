@@ -279,7 +279,8 @@ button {
         .hero { width: 980px; }    
     }
     @media screen and (max-width: 640px){
-        .hero h1 { font-size: 4em; }    
+        /*.hero h1 { font-size: 4em; }    */
+        .hero h1 { font-size: 3em; }    
     }
 
   /*end*/
@@ -1605,6 +1606,13 @@ span.menu {
 /*--/top-top--*/
 /*-- responsive-design starts-here --*/
 @media screen and (max-width: 1024px) {
+  .top-nav ul li {
+    width: 15%;
+  }
+
+  .selectator_element{
+    width: 100% !important;
+  }
 	.top-blog {
 	  width: 87%;
 	}
@@ -1651,6 +1659,12 @@ span.menu {
 	}
 }
 @media screen and (max-width: 768px) {
+
+  .hero h1 { font-size: 3em; }
+
+  .selectator_element{
+    width: 100% !important;
+  }
 
  .see-button {
     margin-top: 1em;
@@ -1850,6 +1864,9 @@ span.menu {
 	}
 }
 @media screen and (max-width: 640px) {
+  .selectator_element{
+    width: 100% !important;
+  }
 	.banner-info h2 {
 	  font-size: 35px;
 	}
@@ -1921,6 +1938,10 @@ span.menu {
 	}
 }
 @media screen and (max-width: 480px) {
+  .selectator_element{
+    width: 100% !important;
+  }
+
 	.banner-info h2 span {
 		border-bottom: none;
 	}
@@ -2057,6 +2078,10 @@ span.menu {
 	}
 }
 @media screen and (max-width: 320px) {
+  .selectator_element{
+    width: 100% !important;
+  }
+
 	.head-logo {
 	  width: 43%;
 	}
